@@ -1,6 +1,6 @@
-# Discord Audio Bot
+# Discord Account Audio Bot
 
-A Discord bot that can play various audio formats from local files and YouTube links.
+A Discord Account bot that can play various audio formats from local files and YouTube links.
 
 ## Features
 - Play local audio files (Supports MP3)
@@ -20,21 +20,24 @@ A Discord bot that can play various audio formats from local files and YouTube l
 ## Installation
 
 1. Clone this repository:
-git clone https://github.com/YOUR_USERNAME/discord-audio-bot.git
-cd discord-audio-bot
+
+git clone https://github.com/Turtles-Discord/Discord-Account-music-bot-2024-working.git
+
+cd Discord-Account-music-bot-2024-working
 
 2. Copy `config.example.json` to `config.json` and fill in your details:
+   
 {
     "token": "YOUR_DISCORD_TOKEN_HERE",
     "voiceChannelId": "YOUR_VOICE_CHANNEL_ID_HERE"
 }
 
-3. Install dependencies:
+4. Install dependencies:
 npm install
 
-4. upload your mp3 files to the 'Sounds' folder
+5. upload your mp3 files to the 'Sounds' folder
 
-5. Start the bot:
+6. Start the bot:
 node index.js
 
 ## Commands
@@ -48,17 +51,11 @@ node index.js
 
 ## Project Structure
 discord-audio-bot/
-
 ├── index.js           # Main bot code
-
 ├── config.json        # Bot configuration (not included in repo)
-
 ├── config.example.json # Example configuration
-
 ├── package.json       # Project dependencies
-
 ├── .gitignore        # Git ignore rules
-
 └── Sounds/           # Folder for audio files
     └── (your audio files)
 
