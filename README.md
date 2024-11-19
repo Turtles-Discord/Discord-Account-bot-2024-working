@@ -29,6 +29,7 @@ cd Discord-Account-music-bot-2024-working
    
 {
     "token": "YOUR_DISCORD_TOKEN_HERE",
+    
     "voiceChannelId": "YOUR_VOICE_CHANNEL_ID_HERE"
 }
 
