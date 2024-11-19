@@ -48,6 +48,7 @@ node index.js
 
 ## Project Structure
 discord-audio-bot/
+
 ├── index.js           # Main bot code
 
 ├── config.json        # Bot configuration (not included in repo)
