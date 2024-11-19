@@ -50,12 +50,19 @@ node index.js
 - `leave` - Leave the voice channel
 
 ## Project Structure
+
 discord-audio-bot/
+
 ├── index.js           # Main bot code
+
 ├── config.json        # Bot configuration (not included in repo)
+
 ├── config.example.json # Example configuration
+
 ├── package.json       # Project dependencies
+
 ├── .gitignore        # Git ignore rules
+
 └── Sounds/           # Folder for audio files
     └── (your audio files)
 
